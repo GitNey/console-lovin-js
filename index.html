@@ -74,9 +74,39 @@
                     title="Hit F12 to open your console in the developer tools before clicking.">
                     Run Code
                   </button>
+                  <button
+                    onclick="console.clear()"
+                    class="btn btn-danger clear-btn" title="Clear your console from here using console.clear()">
+                    Clear Console
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- demo 2 -->
+          <div id="demo-2" class="row col-12 p-4">
+            <div class="card mx-auto">
+              <div class="card-body">
+                <h3>Assertions with <code>console.assert</code></h3>
+                <hr>
+                <div class="pt-4">
+                  <p>Per the <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/assert">MDN docs</a>...</p>
+                  <p>Writes an error message to the <code>console</code> if the assertion passed is <i>false</i>.</p>
+                  <p>If the assertion is <i>true</i>, nothing happens.</p>
                   <p>
-                  <blockquote>But do you really know how to <code>console</code>?</blockquote>
+                    <code>console.assert(1 > 2, 'Error: 1 is less than 2!')</code>
                   </p>
+                  <button id="demo-2" class="btn btn-primary"
+                    title="Hit F12 to open your console in the developer tools before clicking.">
+                    Run Code
+                  </button>
+                  <button
+                    onclick="console.clear()"
+                    class="btn btn-danger clear-btn" title="Clear your console from here using console.clear()">
+                    Clear Console
+                  </button>
                 </div>
               </div>
             </div>
@@ -91,6 +121,21 @@
       <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
       </button>
+    </div>
+
+    <div class="row col-12">
+      <div class="pb-4">
+        <p>But do you really know how to <code>console</code>? After all, there is a lot more to it than <code>console.log</code> my friend...</p>
+        <p>See the table of contents below to jump to a specific method of the <code>console</code> object.</p>
+      </div>
+      
+      <h4>Table of Contents:</h4>
+      <hr>
+      <ol class="list-group">
+        <li class="list-group-item">
+          <div>1. <a href="#" id="go-to-slide" data-slide="2">console.assert()</a></div>
+        </li>
+      </ol>
     </div>
     <!-- jQuery 3 -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"
