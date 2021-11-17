@@ -1,3 +1,7 @@
+nav {
+  margin-bottom: 120px;
+}
+
 nav #app-name {
   flex: initial;
   width: 200px;
@@ -10,3 +14,18 @@ nav #app-name > p {
 nav #menu {
   flex: auto;
 }
+
+.tenor-gif-embed {
+  max-width: 780px;
+  margin: auto;
+}
+
+.carousel-control-next {
+  right: -100px;
+}
+
+.carousel-control-prev {
+  left: -100px;
+}
+
+.card { max-width: 1100px }
