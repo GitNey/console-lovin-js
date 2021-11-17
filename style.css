@@ -1,0 +1,12 @@
+nav #app-name {
+  flex: initial;
+  width: 200px;
+}
+
+nav #app-name > p {
+  margin: 0;
+}
+
+nav #menu {
+  flex: auto;
+}
