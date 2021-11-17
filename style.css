@@ -20,12 +20,19 @@ nav #menu {
   margin: auto;
 }
 
+#main-carousel {
+  margin-bottom: 80px;
+}
+/* 
 .carousel-control-next {
   right: -100px;
 }
 
 .carousel-control-prev {
   left: -100px;
-}
+} */
 
-.card { max-width: 1100px }
+.card {
+  max-width: 1100px;
+  height: 500px;
+}
